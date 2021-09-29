@@ -1,0 +1,286 @@
+/*style index */
+body{
+    display:grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 4fr 0.5fr;
+    grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "index main main main"
+    "footer footer footer footer";
+    margin:0;
+    background-image: url("beach.png");
+}
+.header{
+    grid-area:header;
+}
+.nav{
+    grid-area:nav;
+}
+
+#index{
+    grid-area:index;
+    background: rgba(223, 163, 53, 0.4);
+    text-align: center;
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 10px;
+    margin-left:1vw;
+}
+.main{
+    margin-right:4%;
+    overflow-y: scroll;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: main;
+}
+
+#mainindex{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+#mainindex p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 0;
+    margin-left: -13vw;
+}
+
+#image {
+    position: absolute;
+    left: 15vw;
+    top: 50vh;
+    margin-left:-9vw;
+    z-index:5;
+}
+
+.footer{
+
+    grid-area:footer;
+}
+
+/*style login*/
+
+.main_login{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form_login{
+    width:90%;
+    height: auto;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: -18%;
+    margin-top: -10%;
+}
+
+
+
+
+/*style admin */
+
+.form_admin {
+    height: 100%;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items:center;
+    margin-left: -14%;
+}
+
+input {
+    margin-bottom: 1%;
+
+}
+
+label {
+    font-family: Arial;
+    font-weight: bold; 
+}
+
+#texte{
+    width: 40vw;
+    height: 20vh;
+}
+
+#btnsubmit{
+    margin-top: 1%;
+    width: 8vw;
+    height: 4vh;
+}
+
+
+/*style header */
+
+header {
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{
+    font-size: 2.5em;
+    font-family: 'WindSong', cursive;
+    text-shadow: 2px 0 5px white;
+}
+
+.vers_login{
+    text-decoration:none;
+    position: relative;
+    right: -30vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-weight: 600;
+
+}
+
+/* style nav */
+
+
+button a {
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li button{
+    
+    width: 8vw;
+    height: 4vh;
+    font-size: 100%;
+    font-weight: bold;
+    background: linear-gradient(to bottom, white,rgba(255, 202, 104, 0.5),white, rgba(251,214,145,0.5),rgba(255,188,65,0.5));
+    border-radius: 10px;
+    border: 1px solid rgb(156, 115, 3);
+}
+
+ul {
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 5%;
+    margin-top:0;
+    
+}
+
+ul li button:hover{
+    
+    width: 8vw;
+    height: 4vh;
+    font-size: 100%;
+    background-color: #6CFFBA;
+    border-radius: 10px;
+    border: 1px solid navy;
+}
+
+
+/* style main */
+
+
+/* style footer */
+
+footer{
+    width: 99.9%;
+    display:flex;
+    position:absolute;
+    bottom: 0;
+    justify-content: center;
+    /* background-color: rgba(255,188,65,0.7); */
+    background: linear-gradient(to bottom, white, transparent, rgba(251,214,145,0.4),rgba(255,188,65,0.5));
+    border: 1px solid gray;
+    margin:0;
+    padding: 0;
+}
+
+h2{
+    font-family: 'WindSong', cursive;
+    margin-left: -2%;
+   
+
+}
+
+/* style surf*/
+
+#mainsurf{
+
+
+    background: linear-gradient(to right, transparent -20%, rgba(255,255,255,0.5));
+}
+#mainsurf p{
+
+    width:60%;
+    height: 40vh;
+}
+
+/* style kite */
+
+/* #mainkite{
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+    position: relative;
+    left: 18%;
+    top: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+#mainkite{
+
+    background: linear-gradient(to right, transparent -20%, rgba(255,255,255,0.5));
+}
+
+#mainkite p{
+
+    width:60%;
+    height: 40vh;
+}
+
+/*style wind */
+
+#mainwind{
+
+    background: linear-gradient(to right, transparent -20%, rgba(255,255,255,0.5));
+}
+
+#mainwind p{
+
+    width:60%;
+    height: 40vh;
+}
+
+/* style cocktails */
+
+#maincocktails{
+
+    background: linear-gradient(to right, transparent -20%, rgba(255,255,255,0.5));
+}
+
+
+#maincocktails p{
+
+width:60%;
+height: 40vh;
+}
+
