@@ -11,24 +11,22 @@ login: "seb", mot de passe:"seb" dans la page de log in pour vous connectez.
 Le champ SUJET que vous renseignerez est crucial. Il doit être renseigné en majuscules via 4 mots-clés à votre disposition selon la thématique
 de votre article:
 
-	-SURF
-	-WIND
-	-KITE
-	-COCKTAILS
+    -SURF
+    -WIND
+    -KITE
+    -COCKTAILS
 
 Le nom de l'article, l'auteur et le texte vous appartiennent.
 
-------------------------------------------------------------------------------------------------------------------------------------------
+---
 
-Par défaut vous trouverez un fichier .sql qui vous permettra d'enrichir par défaut votre base de donnée, si vous le souhaitez, lorque vous
-avec cet interface. Par la suite, il n'appartiendra qu'à vous de les conserver ou de les supprimmer.
+Vous trouverez également un fichier .sql qui vous permettra d'enrichir par défaut votre base de donnée, si vous le souhaitez, lorque vous débuterez avec cet interface. Par la suite, il n'appartiendra qu'à vous de les conserver ou de les supprimmer.
 
-------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 Environnement:
 
 Si vous souhaitez utiliser un container Docker nous vous conseillons l'image mattrayner/lamp
 https://registry.hub.docker.com/r/mattrayner/lamp/tags
-
 
 Bonne lecture.
