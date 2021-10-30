@@ -1,3 +1,4 @@
+<!-- Page d'accueil -->
 <?php include('appRoot.php')?>
 <!DOCTYPE html>
 <html lang="en">

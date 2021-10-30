@@ -54,32 +54,5 @@
 <div class="footer">
 <?php include('footer.php')?>
 </div>
-<!-- <script>
-        var verseChoose = document.querySelector('select');
-        var poemDisplay = document.getElementById('showText');
-        var but= document.getElementById('but');
-        var links = document.querySelectorAll('select option');
-
-        for(i=0;i<links.length;i++){
-            var link = links[i];
-            link.addEventListener('click', function{
-            var request = new XMLHttpRequest();
-            request.onreadystatechange = function() {
-
-                if(request.readyState === 200){
-                    poemDisplay.innerHTML = request.response;
-                }
-
-            }
-            request.open('GET', this.getAttribute('href'), true);
-            request.responseType = 'text';
-
-     
-
-            request.send();
-            });
-        }
-
-</script>  -->
 </body>
 </html>

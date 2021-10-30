@@ -6,7 +6,7 @@ $db='blog';
 
 
 $conn = mysqli_connect($host,$user,$pwd,$db);
-// if (mysqli_connect_errno()) {   // toujours besoin ce test de connexion
+// if (mysqli_connect_errno()) {
 //     echo "Failed to connect to MYSQL".mysqli_connect_error();
 // }else{
 //     echo "connection ok <br>";

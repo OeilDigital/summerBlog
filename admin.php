@@ -1,3 +1,5 @@
+<!-- Formulaire d'enregistrement d'un nouvel article -->
+
 <link rel="stylesheet" href="style.css">
 
 

@@ -1,3 +1,4 @@
+<!-- Page de login -->
 <!DOCTYPE html>
 <html lang="en">
 <head>

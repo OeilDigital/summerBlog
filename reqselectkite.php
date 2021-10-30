@@ -48,7 +48,6 @@
     <p>
     <?php
 
-// header('location:http://localhost/one_summer_blog_ajax/surf.php');
 
 include('sql_info.php');        
                  

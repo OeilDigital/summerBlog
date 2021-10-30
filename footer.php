@@ -6,6 +6,6 @@
 
 <footer>
 
-<h2>Footer</h2>
+<h2>&copy;2021</h2>
 
 </footer>
